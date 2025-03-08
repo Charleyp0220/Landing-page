@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: Roboto;
 }
+body{
+    margin: 0;
+}
 .head-nav{
     height: 600px;
     width: 100%;
@@ -64,7 +67,7 @@
         
 }
 .img-container{
-    background-color: #444546;
+    background-color: #E5E7EB;
     height: 300px;
     width: 50%;
     margin-right: 150px;
@@ -91,4 +94,92 @@
     font-size: 18px;
     border: none;
     border-radius: 10px;
+}
+.h2-container, h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+.img-illustration-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+}
+.img-illustration{
+    border: 2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.img-il-cont{
+    width: 150px;
+    text-align: center;
+}
+.testimonial-cont{
+    background-color: #E5E7EB;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.testimonial-cont q{
+    text-align: center;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 30px;
+}
+.test-p-cont{
+    width: 600px;
+    height: 300px;
+    
+}
+.action-cont{
+    height: 300px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.action{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    justify-self: center;
+    height: 150px;
+    width: 1000px;
+    justify-content: space-around;
+    color: #E5E7EB;
+    border-radius: 10px;
+
+}
+.action-button{
+    color: #E5E7EB;
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+}
+.copy-cont{
+    background-color: #1f2937;
+    align-content: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    color: #e5e7eb;
+    text-align: center;
 }
