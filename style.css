@@ -21,7 +21,6 @@ body{
 .nav-div1{
     display: flex;
     justify-content: space-around;
-    /* padding: 20px 80px; */
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -48,7 +47,6 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    /* background-color: #e5e7eb; */
     position: relative;
     padding-top: 0;
 }
@@ -62,9 +60,6 @@ body{
     justify-content: flex-start;
     align-items: baseline;
     padding: 5px;
-    
-    
-        
 }
 .img-container{
     background-color: #E5E7EB;
@@ -78,8 +73,7 @@ body{
     font-weight: 900;
     color: #f9faf8;
     margin-top: -30px;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;  
 }
 .sub-p p{
     color: #e5e7eb;
@@ -106,7 +100,6 @@ body{
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-
 }
 .img-illustration{
     border: 2px solid #3882f6;
